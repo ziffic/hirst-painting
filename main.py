@@ -1,6 +1,7 @@
 # import colorgram
-#
-#
+import random
+import turtle as t
+
 # rgb_colors = []
 # colors = colorgram.extract('image.jpg', 30)
 # for color in colors:
@@ -9,10 +10,9 @@
 #     b = color.rgb.b
 #     new_color = (r, g, b)
 #     rgb_colors.append(new_color)
-#
+
 # print(rgb_colors)
-import random
-import turtle as t
+
 
 tim = t.Turtle()
 t.colormode(255)
